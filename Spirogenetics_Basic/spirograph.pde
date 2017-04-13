@@ -24,7 +24,7 @@ class Spirograph
     int hue = values[6]; 
     int sat = values[7]; 
     int bright = values[8]; 
-    
+
     for (int i=1; i<361; i+=1) {
       float t = radians(i);
       float oldt = radians(i-1);

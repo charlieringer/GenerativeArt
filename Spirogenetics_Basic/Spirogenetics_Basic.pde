@@ -90,7 +90,7 @@ void keyPressed() {
 }
 
 void mousePressed() {
-  save("Image_" + graphs[currGraph].values[0] + "_" + 
+  save("Images/Image_" + graphs[currGraph].values[0] + "_" + 
     graphs[currGraph].values[1] + "_"+ 
     graphs[currGraph].values[2] + "_"+ 
     graphs[currGraph].values[3] + "_"+ 
